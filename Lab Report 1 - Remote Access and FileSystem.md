@@ -16,11 +16,11 @@ First we have to download Vscode, here is the link to the download page
 
 After installing Vscode and opening the application, it should look like this:
 
-![Image](C:\Users\bryce\OneDrive\Pictures\Screenshots\installed_vscode)
+![Image](installed_vscode.png)
 
 ## Remote Connection
 
 
 ## Commands
 
-
+![Image](some_commands.png)
