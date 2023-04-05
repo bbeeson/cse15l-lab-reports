@@ -24,5 +24,5 @@ After installing Vscode and opening the application, it should look like this:
 
 ## Commands
 
-![Image](screenshots/some_commands)
+![Image](screenshots/some_commands.png)
 
