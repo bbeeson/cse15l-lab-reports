@@ -3,7 +3,7 @@
 This will act as a guide and cheat sheet for remembering how to log into a course-specific account on ieng6.
 
 The main steps in order are:
-*** 
+
 - [Lab Report 1](#lab-report-1)
   - [Installing VSCODE](#installing-vscode)
   - [Remote Connection](#remote-connection)
