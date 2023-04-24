@@ -1,6 +1,3 @@
-package lab3;
-
-
 // Examples from https://dzone.com/articles/simple-http-server-in-java were useful references
 
 import java.io.IOException;
