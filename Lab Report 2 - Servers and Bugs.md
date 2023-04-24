@@ -15,14 +15,21 @@
 - Which methods in your code are called?\
 \
 The methods 'main' and 'handleRequest' both get called in my code. I used the base from lab2 to make for the Stringserver section. This means that 'main' will start a server using the port number that was an input for when we are running and then 'handleRequest' will take the argument from the url for when we are using '/add-message'.
+\
+These methods for both screenshots would be the same.
 
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?\
 \
 The relevant arguments to those methods are the port number choosen by the user, which for me was 8060, and the actual url of the server. The value of the field 'message' will update whenever our user changes the url with "/add-messages". I use handleRequest to get the path of the url then check if '/add-message' is present. When present the values of the 'parameters' var gets set by using the query split command which will basically set parameter to be to be an array that will hold two variables. If 'parameter[0]' is 's' , the left side of the '=' sign then it will add 'parameters[1]' to message.
+\
+For both screenshots, the arguments  of the port number is the same. For one screenshot the url will be localhost:8060/add-message?s=Hello and for the other screenshot it will be localhost:8060/add-message?s=How are you. The value of message on the first screenshot will be message = {"Hello"} and on the second screenshot it will be message = {"Hello" , "/n" "How are you"}. 
 
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.\
 \
 'message' value will change whenever there's a message, whereas 'parameters' only changes if the element after our '=' gets changed. 
+\
+For message, the relevent field will change from message = {"Hello"} to message = {"Hello" , "/n" "How are you"}, whereas for parameters it would go from parameters = {"s", "Hello"} to parameters = {"s", "How are you"}
+
 
 ## Part 2
 
