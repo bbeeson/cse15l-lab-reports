@@ -8,7 +8,7 @@ either a file, filename, or even extension.
 
 ### grep whatwordwewant logfile.txt | grep -v whatwordweavoid
 
-[How to ignore some words while doing a search using grep](https://javarevisited.blogspot.com/2011/06/10-examples-of-grep-command-in-unix-and.html#axzz81MdcXFPV)
+[How to ignore some words while doing a search using grep](https://javarevisited.blogspot.com/2011/06/10-examples-of-grep-command-in-unix-and.html#axzz81MdcXFPV)\
 **Example 1 of Ignoring Words:**
 ```
 grep now technical/911report/chapter-1.txt | grep -v the
@@ -34,7 +34,7 @@ This command is taking a search for a specfic word in my cases "now" and "to" an
 
 ### grep -v -e "pattern" -e "pattern" filename.txt
 
-[Display the lines which does not matches all the given pattern](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+[Display the lines which does not matches all the given pattern](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)\
 **Example 1 of : Displaying lines which don't match**
 
 ```
@@ -73,9 +73,9 @@ agencies about $375,000 each year. My assistant, Charity
 This command acts as a black list, where it will block lines that contain what appears in the pattern decided upon and everything else is let through to the terminal. This is useful moreso for some of the smaller files or for finding out which words appear to be having the largest impact on a file based on how much the size of the file changes based on what gets blacklisted. 
 
 ### grep “^placeholderword” file1
-[Match all lines that start with ‘placerholderword’](https://www.softwaretestinghelp.com/grep-command-in-unix/)
+[Match all lines that start with ‘placerholderword’](https://www.softwaretestinghelp.com/grep-command-in-unix/)\
 
-**Example 1 of Finding lines that start with a word:**
+**Example 1 of Finding lines that start with a word:**\
 
 ```
 grep "^the" technical/911report/chapter-1.txt
@@ -84,7 +84,7 @@ grep "^the" technical/911report/chapter-1.txt
     the hijacking would take the traditional form: that is, it would not be a suicide hijacking designed to convert the aircraft into a guided missile.
 ```
 
-**Example 2**
+**Example 2**\
 
 
 ```
