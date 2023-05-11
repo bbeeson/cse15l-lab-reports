@@ -75,7 +75,7 @@ This command acts as a black list, where it will block lines that contain what a
 ### grep “^placeholderword” file1
 [Match all lines that start with ‘placerholderword’](https://www.softwaretestinghelp.com/grep-command-in-unix/)\
 
-**Example 1 of Finding lines that start with a word:**\
+**Example 1 of Finding lines that start with a word:**
 
 ```
 grep "^the" technical/911report/chapter-1.txt
@@ -84,7 +84,7 @@ grep "^the" technical/911report/chapter-1.txt
     the hijacking would take the traditional form: that is, it would not be a suicide hijacking designed to convert the aircraft into a guided missile.
 ```
 
-**Example 2**\
+**Example 2**
 
 
 ```
@@ -98,7 +98,7 @@ This command will basically do a search of all the lines that begin with the spe
 
 ### ls ~/path/ or  ls /directory/ | grep ".file extension"
 
-[Find Filenames Using Extensions](https://www.makeuseof.com/grep-command-practical-examples/?newsletter_popup=1)
+[Find Filenames Using Extensions](https://www.makeuseof.com/grep-command-practical-examples/?newsletter_popup=1)\
 
 **Example 1 of Finding files that use certain Extensions:**
 
