@@ -1,17 +1,17 @@
 # Lab Report 4
 
 ## Log into ieng6
-![Image](screenshot-lab7/Logintoieng6.png)    
+![Image](screenshot-lab7/Logintoieng6.png)     
 
 
-Keys Pressed: `<up>` `<enter>` then I entered my password    
+Keys Pressed: `<up>` `<enter>` then I entered my password     
 
 
-Here I just had to login and the ssh command was one of my previous commands so it was right there. Then I entered my password in after that.      
+Here I just had to login and the ssh command was one of my previous commands so it was right there. Then I entered my password in after that.       
 
 
 ## Clone your fork of the repository from your Github account
-![Image](screenshot-lab7/clone.png)   
+![Image](screenshot-lab7/clone.png)     
 
 
 Keys Pressed: git clone `<crtl-c>` `<crtl-v>` `<enter>`   
