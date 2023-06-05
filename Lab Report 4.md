@@ -49,6 +49,7 @@ Keys Pressed: clear
               `<esc>`  
               `<:w>`  
               `<:q!>`   
+              `<enter>`    
 
 
 In here I went into the file using vim and used shift to move to last line in the file. From there I use ?index1 to find the instance of index1 that I had to remove. I typed e to get to the last character of index1, hit x which removed that character, then I pressed i to enter insert mode. Finally I hit 2 which replaced the spot where 1 was. Then I pressed esc to get to normal mode and saves and quit the file.   
@@ -70,11 +71,11 @@ The command for compiling and running it was 4 above so I just ran the commands 
 ![Image](screenshot-lab7/push.png)    
 
 
-Keys Pressed: clear  
-              git add .  
-              git commit -m "lab7 is done"  
-              git push  
-              bbeeson   
+Keys Pressed:`clear`  
+             `git add .`     
+             `git commit -m "lab7 is done"`   
+             `git push`   
+             `bbeeson`   
              `<crtl-c>` `<crtl-v>` (what was copied "Personal Access token")  
 
 
